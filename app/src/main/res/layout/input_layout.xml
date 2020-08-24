@@ -6,6 +6,7 @@
     android:layout_height="wrap_content">
 
     <TextView
+        android:id="@+id/Input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/black"
@@ -13,9 +14,10 @@
         android:textColor="@color/white"
         android:textSize="30sp"
         android:padding="10dp"
-        android:text="45435" />
+        android:text="" />
 
     <TextView
+        android:id="@+id/Output"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/black"
@@ -23,7 +25,7 @@
         android:textColor="@color/white"
         android:textSize="60sp"
         android:padding="10dp"
-        android:text="45435" />
+        android:text="" />
 
 
 </LinearLayout>
